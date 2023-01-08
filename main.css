@@ -67,11 +67,11 @@ input[type=text] {
   font-size: 16px;
   background-color: rgba(66, 66, 70, 0.758);
   background-image: url('images/search-icon.png');
-  background-size: 28px;
-  background-position: 6px 8px; 
+  background-size: 25px;
+  background-position: 6px 6px; 
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  margin-top: 5px;
+  padding: 10px 10px 8px 40px;
+  margin-top: 7px;
   margin-left: 60px;
   transition: all, .20s ease-in;
 }
