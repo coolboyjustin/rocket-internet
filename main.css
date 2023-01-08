@@ -41,6 +41,7 @@ body {
   font-variant: small-caps;
   letter-spacing: 2px;
   transition: all, .30s;
+  margin-left: 20px;
 }
 
 .header__menu-items:hover {
@@ -56,6 +57,33 @@ body {
 .header__menu-items:hover a {
   color: rgb(255, 217, 0);
 }
+
+input[type=text] {
+  color: gold;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(66, 66, 70, 0.758);
+  background-image: url('images/search-icon.png');
+  background-size: 28px;
+  background-position: 6px 8px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 5px;
+  margin-left: 60px;
+  transition: all, .20s ease-in;
+}
+
+input[type=text]:hover {
+  color: gold;
+  border: 2px solid gold;
+}
+
+/* input[type=text]:focus {
+  width: 100%;
+} */
 
 .header__item {
   display: flex;
