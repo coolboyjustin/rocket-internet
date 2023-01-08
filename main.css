@@ -99,6 +99,11 @@ input[type=text]:hover {
   font-size: 60px;
   margin-bottom: 15px;
   line-height: 66px;
+  transition: all, .20s ease-in;
+}
+
+.header__title:hover {
+  color: gold;
 }
 
 .header__vertical-line {
@@ -106,6 +111,11 @@ input[type=text]:hover {
   width: 150px;
   height: 2px;
   margin-bottom: 15px;
+  transition: all, .20s ease-in;
+}
+
+.header__item:hover .header__vertical-line {
+  background-color: gold;
 }
 
 .header__text {
@@ -115,6 +125,11 @@ input[type=text]:hover {
   text-align: center;
   line-height: 36px;
   margin-top: 15px;
+  transition: all, .20s ease-in;
+}
+
+.header__text:hover {
+  color: gold;
 }
 
 /* Main Section */
