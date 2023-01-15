@@ -107,14 +107,15 @@ input[type=text]:hover {
 }
 
 .header__vertical-line {
+  display: block;
   background-color: white;
-  width: 150px;
+  width: 160px;
   height: 2px;
   margin-bottom: 15px;
   transition: all, .20s ease-in;
 }
 
-.header__item:hover .header__vertical-line {
+.header__vertical-line:hover {
   background-color: gold;
 }
 
